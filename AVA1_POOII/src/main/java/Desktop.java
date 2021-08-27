@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class Desktop extends Computador{
 // Atributos
-    String marcaPlacaVideo;
-    Integer placasVideos;
+    private String marcaPlacaVideo;
+    private Integer placasVideos;
     Hd hd = new Hd();
     Memoria memoria = new Memoria();
     Fonte fonte = new Fonte();

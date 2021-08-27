@@ -3,20 +3,19 @@ import java.util.Scanner;
 public class Computador {
 
 // Atributos
-    String marca;
-    Double preco;
-    Integer quantidade;
-    String Modelo;
+    private String marca, modelo;
+    private Double preco;
+    private Integer quantidade;
 // Fim Atributos
 
 // Set Get
 
     public String getModelo() {
-        return Modelo;
+        return modelo;
     }
 
     public void setModelo(String modelo) {
-        Modelo = modelo;
+        this.modelo = modelo;
     }
 
     public String getMarca() {

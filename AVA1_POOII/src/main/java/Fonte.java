@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class Fonte {
 
 // Atributos
-    String tipo, marca;
-    Integer potencia;
+    private String tipo, marca;
+    private Integer potencia;
 // Fim Atributos
 
 // Set and Get for ALL

@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class Monitor {
 
 // Atributos
-    String tipo, marca;
-    Integer resolucao;
+    private String tipo, marca;
+    private Integer resolucao;
 // Fim Atributos
 
 // Set and Get

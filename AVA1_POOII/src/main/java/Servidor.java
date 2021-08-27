@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class Servidor extends Computador {
 
     // Atributos
-    Integer numeroHD, capacidadeMemoria;
-    String tipoGabinete, marcaGabinete;
+    private Integer numeroHD, capacidadeMemoria;
+    private String tipoGabinete, marcaGabinete;
     Hd hd = new Hd();
     Memoria memoria = new Memoria();
     Fonte fonte = new Fonte();
